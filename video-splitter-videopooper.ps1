@@ -1,7 +1,7 @@
 
 $videosDir = "incoming-vids";
 $outputDir = "tiktok"
-$desiredSplitTimeInSeconds = 5;
+$desiredSplitTimeInSeconds = 60;
 
 $videosToCut = Get-ChildItem $videosDir
 
